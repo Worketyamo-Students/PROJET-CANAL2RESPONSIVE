@@ -74,3 +74,133 @@ transition: background-color 0.4s;
 button:hover{
 background-color: #79AC78;
 }
+.section1 {
+    display: flex;
+    gap: 4rem;
+}
+.actu {
+    flex: 1;
+    width: 841.64px;
+    height: 622px;
+    margin-top: 30px;
+    margin-left: 64px;
+    
+}
+.head {
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 841.64px;
+    height: 622px;
+    display: flex;
+}
+.head img {
+    width: 840.64px;
+    border-radius: 20px;
+    height: 622px;
+    object-fit: cover;
+}
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(10.82deg, rgba(0, 0, 0, 0.95) 1.55%, rgba(0, 0, 0, 0) 51.18%);
+
+}
+.head .side{
+    position: absolute;
+    width: 15px;
+    height: 142px;
+    margin-top: 441px;
+    margin-left: 35px;
+    background-color: var(--primary-color);
+    border-radius: 23px;
+
+}
+.head .text {
+    position: absolute;
+    width: 674px;
+    height: 101px;
+    margin-top: 433px;
+    margin-left: 80px;
+    font-family: var(--font-family2);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.head .text b {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.head .text .date {
+    font-size: 20px;
+    line-height: 26px;
+}
+.side1 {
+    flex: 1;
+    width: 453px;
+    height: 628px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.side1 .title {
+    display: flex;
+    font-family: var(--font-family2);
+}
+.side1 .title .sign {
+    background-color: var(--primary-color);
+    width: 13px;
+    height: 40px;
+    margin-top: 0;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.side1 .title p {
+    width: 199px;
+    height: 23px;
+    margin-top: 05px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+.primary {
+    margin-right: 25px;
+    display: flex;
+    gap: 1.5rem;
+    font-family: var(--font-family2);
+    padding-bottom: 10px;
+}
+.primary img {
+    flex: 1;
+    width: 2rem;
+    height: 17rem;
+    margin-top: 18px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.primary .txt {
+    flex: 1;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.primary .txt h1 {
+    width: 189px;
+    height: 52px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    padding-right: 25px;
+    font-family: var(--font-family2);
+}
+.primary .txt p {
+    width: 200px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: var(--font-family3);
+}
