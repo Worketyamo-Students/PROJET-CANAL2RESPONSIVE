@@ -74,3 +74,25 @@ transition: background-color 0.4s;
 button:hover{
 background-color: #79AC78;
 }
+
+.images{
+    display: flex;
+    padding: 4.2rem;
+   justify-content:space-between ;
+}
+.img{
+    width:28.5rem;
+    height:30rem;
+}
+h4{
+    color: var(--primary-color);
+    padding: 1rem;
+}
+p{
+    color: var(--secondary-color);
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+.images_img{
+    margin-right: 1rem;
+}
