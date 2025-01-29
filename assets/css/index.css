@@ -229,6 +229,7 @@ background-color: #79AC78;
     width: 100rem;
     border-radius: 2rem;
 }
+/* section5 */
 .section5 {
     display: flex;
     justify-content: space-around;
@@ -272,7 +273,7 @@ background-color: #79AC78;
 
 .schedule {
     font-family: var(--font-family1);
-    color: green;
+    color: var(--primary-color);
     padding: 5px;
     line-height: 1.45rem;
     font-size: 12px;
@@ -290,3 +291,50 @@ background-color: #79AC78;
     text-align: left;
     line-height: 31.2px;
 }
+/* section7 */
+.section7 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 10rem;
+    padding: 10px;
+    padding-left: 7rem;
+    border-radius: 8px;
+    gap: 2rem;
+}
+
+.pub-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: var(--font-family2);
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-button);
+    text-transform: uppercase;
+}
+
+.line {
+    width: 1.3rem;
+    height: 5.5rem;
+    background-color: var(--color-button);
+}
+
+.pub-right {
+    flex: 1;
+}
+
+.pub-right img {
+    width: 137rem;
+    height: 57rem;
+    position: relative;
+    object-fit: cover;
+}
+
